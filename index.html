@@ -6,37 +6,52 @@
     <title>Urban Royalty - T-Shirt Shop</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/flowbite@1.5.0/dist/flowbite.min.css" rel="stylesheet">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+
+ <style>
+
+</style>   
+   
 </head>
 <body class="bg-white text-black">
 
     <!-- Header -->
-<header class="bg-white border-b-2 border-black">
-    <div class="container mx-auto flex justify-between items-center p-4">
-        <div class="flex items-center">
-            <img src="Logo01.png" alt="Urban Royalty Logo" class="h-10">
-            <nav class="ml-6 space-x-4">
-                <a href="#" class="text-black hover:underline">Home</a>
-                <a href="#" class="text-black hover:underline">Shop</a>
-                <a href="#" class="text-black hover:underline">About</a>
-            </nav>
-        </div>
-        <div class="flex items-center space-x-4">
-            <button id="searchButton" class="text-black">
-                <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 1114 0 7 7 0 01-14 0z"></path></svg>
-            </button>
-            <div id="searchBar" class="hidden">
-                <input type="text" placeholder="Search..." class="border border-gray-400 px-4 py-2 rounded-md">
+    <header class="bg-white border-b-2 border-black navbar">
+        <div class="container mx-auto flex justify-between items-center h-11 p-2">
+            <div class="flex items-center">
+                <!-- <img src="Logo01.png" alt="Urban Royalty Logo" class="h-10"> -->
+                <nav class="ml-6 space-x-4">
+                    <a href="#" class="text-black hover:underline">Home</a>
+                    <a href="#" class="text-black hover:underline">Shop</a>
+                    <a href="#" class="text-black hover:underline">About</a>
+                </nav>
             </div>
-            <button id="cartButton" class="text-black">
-                <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M9 5a1 1 0 011 1v1h8.5a.5.5 0 01.5.5v10a1.5 1.5 0 01-1.5 1.5H4a1.5 1.5 0 01-1.5-1.5v-10a.5.5 0 01.5-.5H9V6a1 1 0 011-1zm6 2H5v10h10V7z" clip-rule="evenodd"></path></svg>
-            </button>
-            <button id="loginButton" class="text-black">
-                <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 12a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"></path><path fill-rule="evenodd" d="M10 2a5.905 5.905 0 00-5.516 3.816 8.833 8.833 0 0111.032 0A5.905 5.905 0 0010 2zM5 14a1 1 0 011-1h8a1 1 0 110 2H6a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
-            </button>
+            <div class="flex items-center space-x-2 relative">
+                <button id="searchButton" class="text-black">
+                    <i class="fas fa-search h-6 w-6"></i>
+                </button>
+                <div id="searchBar" class="hidden flex items-center">
+                    <input type="text" placeholder="Search..." class="border border-gray-400 px-2 py-1 rounded-md w-32 mr-1">
+                    <button type="submit" class="text-black bg-black py-1 px-2 hover:bg-blue-500 hover:text-black border-2 border-black">Submit</button>
+                </div>
+                <button id="cartButton" class="text-black">
+                    <i class="fas fa-shopping-cart h-6 w-6"></i>
+                </button>
+                <button id="loginButton" class="text-black">
+                    <i class="fas fa-user h-6 w-6"></i>
+                </button>
+            </div>
         </div>
-    </div>
-</header>
-
+    </header>
+    
+    
+    
+    
+    
+    
+    
     
 
     <!-- Hero Section -->
